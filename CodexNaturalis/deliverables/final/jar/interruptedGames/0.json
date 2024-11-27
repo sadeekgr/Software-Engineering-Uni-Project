@@ -1,0 +1,2400 @@
+{
+  "gameOrder": [
+    "BLUE",
+    "GREEN"
+  ],
+  "players": [
+    "user_1",
+    "user_2"
+  ],
+  "starters": [
+    {
+      "backCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "FUNGI"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "PLANT"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "INSECT"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "ANIMAL"
+        }
+      },
+      "centerSymbols": [
+        "INSECT"
+      ],
+      "id": "081",
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "PLANT"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "INSECT"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      }
+    },
+    {
+      "backCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "PLANT"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "INSECT"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "ANIMAL"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "FUNGI"
+        }
+      },
+      "centerSymbols": [
+        "ANIMAL",
+        "INSECT"
+      ],
+      "id": "084",
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      }
+    }
+  ],
+  "starterSides": [
+    true,
+    true
+  ],
+  "playableCards": [
+    [
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "ANIMAL",
+          "id": "025",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "INSECT"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "INKWELL"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "ANIMAL"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "PLANT",
+          "id": "011",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "PLANT"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "PLANT"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 1,
+          "kingdom": "PLANT",
+          "id": "019",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "PLANT"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardInt",
+        "data": {
+          "score": 5,
+          "requirements": {
+            "INSECT": 5
+          },
+          "kingdom": "INSECT",
+          "id": "080",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 1,
+          "kingdom": "PLANT",
+          "id": "020",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "PLANT"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "INSECT",
+          "id": "034",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "INSECT"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "INSECT"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "PLANT",
+          "id": "016",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "FUNGI"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "PLANT"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "INKWELL"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "INSECT",
+          "id": "033",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "INSECT"
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "INSECT"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "PLANT",
+          "id": "015",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "INSECT"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "QUILL"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "PLANT"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardInt",
+        "data": {
+          "score": 3,
+          "requirements": {
+            "INSECT": 3
+          },
+          "kingdom": "INSECT",
+          "id": "079",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "QUILL"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      }
+    ]
+  ],
+  "positions": [
+    [
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": -1
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": -2
+      },
+      {
+        "x": -1,
+        "y": -3
+      }
+    ],
+    [
+      {
+        "x": -1,
+        "y": 1
+      },
+      {
+        "x": 0,
+        "y": 2
+      },
+      {
+        "x": 1,
+        "y": 3
+      },
+      {
+        "x": 0,
+        "y": 4
+      },
+      {
+        "x": 2,
+        "y": 2
+      }
+    ]
+  ],
+  "sides": [
+    [
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  ],
+  "scores": [
+    2,
+    3
+  ],
+  "personalObjectives": [
+    {
+      "type": "SymbolObjective",
+      "data": {
+        "symbols": {
+          "PLANT": 3
+        },
+        "score": 2,
+        "id": "096"
+      }
+    },
+    {
+      "type": "SymbolObjective",
+      "data": {
+        "symbols": {
+          "INKWELL": 2
+        },
+        "score": 2,
+        "id": "101"
+      }
+    }
+  ],
+  "hands": [
+    [
+      {
+        "type": "GoldCardCorner",
+        "data": {
+          "scorePerCorner": 2,
+          "requirements": {
+            "PLANT": 3,
+            "INSECT": 1
+          },
+          "kingdom": "PLANT",
+          "id": "054",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "FUNGI",
+          "id": "006",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "INKWELL"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "FUNGI"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "ANIMAL"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardInt",
+        "data": {
+          "score": 3,
+          "requirements": {
+            "FUNGI": 3
+          },
+          "kingdom": "FUNGI",
+          "id": "047",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "INKWELL"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      }
+    ],
+    [
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "PLANT",
+          "id": "014",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "PLANT"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "PLANT"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "INSECT",
+          "id": "035",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "QUILL"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "ANIMAL"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "INSECT"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardObject",
+        "data": {
+          "scorePerSymbol": 1,
+          "symbol": "MANUSCRIPT",
+          "requirements": {
+            "ANIMAL": 2,
+            "PLANT": 1
+          },
+          "kingdom": "ANIMAL",
+          "id": "062",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "MANUSCRIPT"
+            }
+          }
+        }
+      }
+    ]
+  ],
+  "commonObjectives": [
+    {
+      "type": "DispositionObjective",
+      "data": {
+        "patternPosition": [
+          {
+            "x": 0,
+            "y": -2
+          },
+          {
+            "x": -1,
+            "y": -3
+          }
+        ],
+        "patternKingdom": [
+          "PLANT",
+          "PLANT",
+          "INSECT"
+        ],
+        "score": 3,
+        "id": "092"
+      }
+    },
+    {
+      "type": "DispositionObjective",
+      "data": {
+        "patternPosition": [
+          {
+            "x": -1,
+            "y": -1
+          },
+          {
+            "x": -2,
+            "y": -2
+          }
+        ],
+        "patternKingdom": [
+          "ANIMAL",
+          "ANIMAL",
+          "ANIMAL"
+        ],
+        "score": 2,
+        "id": "089"
+      }
+    }
+  ],
+  "goldDeck": {
+    "cards": [
+      {
+        "type": "GoldCardInt",
+        "data": {
+          "score": 3,
+          "requirements": {
+            "ANIMAL": 3
+          },
+          "kingdom": "ANIMAL",
+          "id": "067",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "MANUSCRIPT"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardInt",
+        "data": {
+          "score": 5,
+          "requirements": {
+            "PLANT": 5
+          },
+          "kingdom": "PLANT",
+          "id": "060",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardObject",
+        "data": {
+          "scorePerSymbol": 1,
+          "symbol": "INKWELL",
+          "requirements": {
+            "PLANT": 2,
+            "ANIMAL": 1
+          },
+          "kingdom": "PLANT",
+          "id": "053",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "INKWELL"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardInt",
+        "data": {
+          "score": 3,
+          "requirements": {
+            "ANIMAL": 3
+          },
+          "kingdom": "ANIMAL",
+          "id": "068",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "INKWELL"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardCorner",
+        "data": {
+          "scorePerCorner": 2,
+          "requirements": {
+            "FUNGI": 3,
+            "PLANT": 1
+          },
+          "kingdom": "FUNGI",
+          "id": "045",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardObject",
+        "data": {
+          "scorePerSymbol": 1,
+          "symbol": "INKWELL",
+          "requirements": {
+            "FUNGI": 2,
+            "PLANT": 1
+          },
+          "kingdom": "FUNGI",
+          "id": "042",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "INKWELL"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardInt",
+        "data": {
+          "score": 3,
+          "requirements": {
+            "PLANT": 3
+          },
+          "kingdom": "PLANT",
+          "id": "058",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "MANUSCRIPT"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardObject",
+        "data": {
+          "scorePerSymbol": 1,
+          "symbol": "MANUSCRIPT",
+          "requirements": {
+            "FUNGI": 2,
+            "INSECT": 1
+          },
+          "kingdom": "FUNGI",
+          "id": "043",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "MANUSCRIPT"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardInt",
+        "data": {
+          "score": 3,
+          "requirements": {
+            "INSECT": 3
+          },
+          "kingdom": "INSECT",
+          "id": "077",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "INKWELL"
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardCorner",
+        "data": {
+          "scorePerCorner": 2,
+          "requirements": {
+            "ANIMAL": 3,
+            "PLANT": 1
+          },
+          "kingdom": "ANIMAL",
+          "id": "066",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardCorner",
+        "data": {
+          "scorePerCorner": 2,
+          "requirements": {
+            "FUNGI": 3,
+            "ANIMAL": 1
+          },
+          "kingdom": "FUNGI",
+          "id": "044",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardObject",
+        "data": {
+          "scorePerSymbol": 1,
+          "symbol": "QUILL",
+          "requirements": {
+            "FUNGI": 2,
+            "ANIMAL": 1
+          },
+          "kingdom": "FUNGI",
+          "id": "041",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "QUILL"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardCorner",
+        "data": {
+          "scorePerCorner": 2,
+          "requirements": {
+            "ANIMAL": 3,
+            "INSECT": 1
+          },
+          "kingdom": "ANIMAL",
+          "id": "064",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardInt",
+        "data": {
+          "score": 5,
+          "requirements": {
+            "ANIMAL": 5
+          },
+          "kingdom": "ANIMAL",
+          "id": "070",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardInt",
+        "data": {
+          "score": 3,
+          "requirements": {
+            "PLANT": 3
+          },
+          "kingdom": "PLANT",
+          "id": "057",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "QUILL"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardInt",
+        "data": {
+          "score": 3,
+          "requirements": {
+            "INSECT": 3
+          },
+          "kingdom": "INSECT",
+          "id": "078",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "MANUSCRIPT"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardCorner",
+        "data": {
+          "scorePerCorner": 2,
+          "requirements": {
+            "ANIMAL": 3,
+            "FUNGI": 1
+          },
+          "kingdom": "ANIMAL",
+          "id": "065",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardCorner",
+        "data": {
+          "scorePerCorner": 2,
+          "requirements": {
+            "INSECT": 3,
+            "FUNGI": 1
+          },
+          "kingdom": "INSECT",
+          "id": "076",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardObject",
+        "data": {
+          "scorePerSymbol": 1,
+          "symbol": "QUILL",
+          "requirements": {
+            "INSECT": 2,
+            "PLANT": 1
+          },
+          "kingdom": "INSECT",
+          "id": "071",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "QUILL"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardCorner",
+        "data": {
+          "scorePerCorner": 2,
+          "requirements": {
+            "PLANT": 3,
+            "ANIMAL": 1
+          },
+          "kingdom": "PLANT",
+          "id": "055",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardCorner",
+        "data": {
+          "scorePerCorner": 2,
+          "requirements": {
+            "INSECT": 3,
+            "ANIMAL": 1
+          },
+          "kingdom": "INSECT",
+          "id": "074",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardInt",
+        "data": {
+          "score": 3,
+          "requirements": {
+            "ANIMAL": 3
+          },
+          "kingdom": "ANIMAL",
+          "id": "069",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "QUILL"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardInt",
+        "data": {
+          "score": 5,
+          "requirements": {
+            "FUNGI": 5
+          },
+          "kingdom": "FUNGI",
+          "id": "050",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardObject",
+        "data": {
+          "scorePerSymbol": 1,
+          "symbol": "MANUSCRIPT",
+          "requirements": {
+            "INSECT": 2,
+            "ANIMAL": 1
+          },
+          "kingdom": "INSECT",
+          "id": "072",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "MANUSCRIPT"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardObject",
+        "data": {
+          "scorePerSymbol": 1,
+          "symbol": "MANUSCRIPT",
+          "requirements": {
+            "INSECT": 2,
+            "FUNGI": 1
+          },
+          "kingdom": "INSECT",
+          "id": "073",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "INKWELL"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardObject",
+        "data": {
+          "scorePerSymbol": 1,
+          "symbol": "QUILL",
+          "requirements": {
+            "ANIMAL": 2,
+            "FUNGI": 1
+          },
+          "kingdom": "ANIMAL",
+          "id": "063",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "QUILL"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardCorner",
+        "data": {
+          "scorePerCorner": 2,
+          "requirements": {
+            "PLANT": 3,
+            "FUNGI": 1
+          },
+          "kingdom": "PLANT",
+          "id": "056",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardInt",
+        "data": {
+          "score": 3,
+          "requirements": {
+            "PLANT": 3
+          },
+          "kingdom": "PLANT",
+          "id": "059",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "INKWELL"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardObject",
+        "data": {
+          "scorePerSymbol": 1,
+          "symbol": "QUILL",
+          "requirements": {
+            "PLANT": 2,
+            "INSECT": 1
+          },
+          "kingdom": "PLANT",
+          "id": "051",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "QUILL"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardObject",
+        "data": {
+          "scorePerSymbol": 1,
+          "symbol": "MANUSCRIPT",
+          "requirements": {
+            "PLANT": 2,
+            "FUNGI": 1
+          },
+          "kingdom": "PLANT",
+          "id": "052",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "MANUSCRIPT"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardObject",
+        "data": {
+          "scorePerSymbol": 1,
+          "symbol": "INKWELL",
+          "requirements": {
+            "ANIMAL": 2,
+            "INSECT": 1
+          },
+          "kingdom": "ANIMAL",
+          "id": "061",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "INKWELL"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardCorner",
+        "data": {
+          "scorePerCorner": 2,
+          "requirements": {
+            "INSECT": 3,
+            "PLANT": 1
+          },
+          "kingdom": "INSECT",
+          "id": "075",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "GoldCardInt",
+        "data": {
+          "score": 3,
+          "requirements": {
+            "FUNGI": 3
+          },
+          "kingdom": "FUNGI",
+          "id": "048",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "QUILL"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourceDeck": {
+    "cards": [
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 1,
+          "kingdom": "PLANT",
+          "id": "018",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "PLANT"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 1,
+          "kingdom": "ANIMAL",
+          "id": "030",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "ANIMAL"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "PLANT",
+          "id": "017",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "MANUSCRIPT"
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "PLANT"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "ANIMAL"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "ANIMAL",
+          "id": "023",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "ANIMAL"
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "ANIMAL"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "ANIMAL",
+          "id": "022",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "ANIMAL"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "ANIMAL"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 1,
+          "kingdom": "FUNGI",
+          "id": "010",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "FUNGI"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "ANIMAL",
+          "id": "021",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "ANIMAL"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "ANIMAL"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "FUNGI",
+          "id": "003",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "FUNGI"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "FUNGI"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "FUNGI",
+          "id": "002",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "FUNGI"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "FUNGI"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "FUNGI",
+          "id": "005",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "QUILL"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "PLANT"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "FUNGI"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 1,
+          "kingdom": "ANIMAL",
+          "id": "028",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "ANIMAL"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "INSECT",
+          "id": "036",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "MANUSCRIPT"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "INSECT"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "FUNGI"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 1,
+          "kingdom": "FUNGI",
+          "id": "009",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "FUNGI"
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "FUNGI",
+          "id": "007",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "FUNGI"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "INSECT"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "MANUSCRIPT"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 1,
+          "kingdom": "ANIMAL",
+          "id": "029",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "ANIMAL"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "PLANT",
+          "id": "012",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "PLANT"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "PLANT"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "PLANT",
+          "id": "013",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "PLANT"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "PLANT"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 1,
+          "kingdom": "FUNGI",
+          "id": "008",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "FUNGI"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 1,
+          "kingdom": "INSECT",
+          "id": "040",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "INSECT"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 1,
+          "kingdom": "INSECT",
+          "id": "039",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "INSECT"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 1,
+          "kingdom": "INSECT",
+          "id": "038",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "INSECT"
+            },
+            "TOP_RIGHT": {
+              "isPresent": false
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "FUNGI",
+          "id": "001",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "FUNGI"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "FUNGI"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "FUNGI",
+          "id": "004",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "FUNGI"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "FUNGI"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "INSECT",
+          "id": "037",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "INSECT"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "PLANT"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "INKWELL"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "INSECT",
+          "id": "031",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "INSECT"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "INSECT"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": false
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "ANIMAL",
+          "id": "024",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "ANIMAL"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": false
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "ANIMAL"
+            }
+          }
+        }
+      },
+      {
+        "type": "ResourceCard",
+        "data": {
+          "score": 0,
+          "kingdom": "INSECT",
+          "id": "032",
+          "frontCorners": {
+            "TOP_LEFT": {
+              "isPresent": false
+            },
+            "TOP_RIGHT": {
+              "isPresent": true,
+              "symbol": "EMPTY"
+            },
+            "BOTTOM_LEFT": {
+              "isPresent": true,
+              "symbol": "INSECT"
+            },
+            "BOTTOM_RIGHT": {
+              "isPresent": true,
+              "symbol": "INSECT"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "market": [
+    {
+      "type": "ResourceCard",
+      "data": {
+        "score": 0,
+        "kingdom": "ANIMAL",
+        "id": "027",
+        "frontCorners": {
+          "TOP_LEFT": {
+            "isPresent": true,
+            "symbol": "QUILL"
+          },
+          "TOP_RIGHT": {
+            "isPresent": false
+          },
+          "BOTTOM_LEFT": {
+            "isPresent": true,
+            "symbol": "ANIMAL"
+          },
+          "BOTTOM_RIGHT": {
+            "isPresent": true,
+            "symbol": "FUNGI"
+          }
+        }
+      }
+    },
+    {
+      "type": "ResourceCard",
+      "data": {
+        "score": 0,
+        "kingdom": "ANIMAL",
+        "id": "026",
+        "frontCorners": {
+          "TOP_LEFT": {
+            "isPresent": true,
+            "symbol": "PLANT"
+          },
+          "TOP_RIGHT": {
+            "isPresent": true,
+            "symbol": "ANIMAL"
+          },
+          "BOTTOM_LEFT": {
+            "isPresent": false
+          },
+          "BOTTOM_RIGHT": {
+            "isPresent": true,
+            "symbol": "MANUSCRIPT"
+          }
+        }
+      }
+    },
+    {
+      "type": "GoldCardCorner",
+      "data": {
+        "scorePerCorner": 2,
+        "requirements": {
+          "FUNGI": 3,
+          "INSECT": 1
+        },
+        "kingdom": "FUNGI",
+        "id": "046",
+        "frontCorners": {
+          "TOP_LEFT": {
+            "isPresent": true,
+            "symbol": "EMPTY"
+          },
+          "TOP_RIGHT": {
+            "isPresent": false
+          },
+          "BOTTOM_LEFT": {
+            "isPresent": true,
+            "symbol": "EMPTY"
+          },
+          "BOTTOM_RIGHT": {
+            "isPresent": true,
+            "symbol": "EMPTY"
+          }
+        }
+      }
+    },
+    {
+      "type": "GoldCardInt",
+      "data": {
+        "score": 3,
+        "requirements": {
+          "FUNGI": 3
+        },
+        "kingdom": "FUNGI",
+        "id": "049",
+        "frontCorners": {
+          "TOP_LEFT": {
+            "isPresent": false
+          },
+          "TOP_RIGHT": {
+            "isPresent": true,
+            "symbol": "MANUSCRIPT"
+          },
+          "BOTTOM_LEFT": {
+            "isPresent": false
+          },
+          "BOTTOM_RIGHT": {
+            "isPresent": true,
+            "symbol": "EMPTY"
+          }
+        }
+      }
+    }
+  ],
+  "currentPlayer": "BLUE",
+  "lastLap": false
+}
