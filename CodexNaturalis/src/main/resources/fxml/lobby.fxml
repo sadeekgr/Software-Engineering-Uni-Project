@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<BorderPane
+        xmlns="http://javafx.com/javafx/21"
+        xmlns:fx="http://javafx.com/fxml/1"
+        fx:controller="it.polimi.ingsw.view.gui.controllers.Lobby"
+        prefWidth="400" prefHeight="600">
+
+    <!-- Top section -->
+    <top>
+        <BorderPane>
+            <left>
+                <Label fx:id="lobbyIdLabel" text="Lobby ID: " />
+            </left>
+            <right>
+                <Label fx:id="playerCountLabel" text="0/0 Players" />
+            </right>
+        </BorderPane>
+    </top>
+
+    <!-- Center section -->
+    <center>
+        <ListView fx:id="playerListView" />
+    </center>
+
+    <!-- Bottom section -->
+    <bottom>
+        <AnchorPane fx:id="chatPane" prefHeight="200">
+            <!-- Your chat UI components go here -->
+            <!-- For example, if your Chat.fxml contains VBox as root node -->
+            <fx:include source="chat.fxml" />
+            <!-- or you can directly define the UI components here -->
+        </AnchorPane>
+    </bottom>
+
+</BorderPane>

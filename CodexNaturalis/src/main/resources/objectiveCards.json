@@ -1,0 +1,261 @@
+[
+  {
+    "type" : "DispositionObjective",
+    "data" : {
+      "id": "087",
+      "score": 2,
+      "patternPosition": [
+        {
+          "x": -1,
+          "y": -1
+        },
+        {
+          "x": -2,
+          "y": -2
+        }
+      ],
+      "patternKingdom": [
+        "FUNGI",
+        "FUNGI",
+        "FUNGI"
+      ]
+    }
+  },
+  {
+    "type" : "DispositionObjective",
+    "data" : {
+      "id" : "088",
+      "score": 2,
+      "patternPosition": [
+        {
+          "x": 1,
+          "y": -1
+        },
+        {
+          "x": 2,
+          "y": -2
+        }
+      ],
+      "patternKingdom": [
+        "PLANT",
+        "PLANT",
+        "PLANT"
+      ]
+    }
+  },
+  {
+    "type" : "DispositionObjective",
+    "data" : {
+      "id" : "089",
+      "score": 2,
+      "patternPosition": [
+        {
+          "x": -1,
+          "y": -1
+        },
+        {
+          "x": -2,
+          "y": -2
+        }
+      ],
+      "patternKingdom": [
+        "ANIMAL",
+        "ANIMAL",
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "type" : "DispositionObjective",
+    "data" : {
+      "id" : "090",
+      "score": 2,
+      "patternPosition": [
+        {
+          "x": 1,
+          "y": -1
+        },
+        {
+          "x": 2,
+          "y": -2
+        }
+      ],
+      "patternKingdom": [
+        "INSECT",
+        "INSECT",
+        "INSECT"
+      ]
+    }
+  },
+
+  {
+    "type" : "DispositionObjective",
+    "data" : {
+      "id" : "091",
+      "score": 3,
+      "patternPosition": [
+        {
+          "x": 0,
+          "y": -2
+        },
+        {
+          "x": 1,
+          "y": -3
+        }
+      ],
+      "patternKingdom": [
+        "FUNGI",
+        "FUNGI",
+        "PLANT"
+      ]
+    }
+  },
+  {
+    "type" : "DispositionObjective",
+    "data" : {
+      "id" : "092",
+      "score": 3,
+      "patternPosition": [
+        {
+          "x": 0,
+          "y": -2
+        },
+        {
+          "x": -1,
+          "y": -3
+        }
+      ],
+      "patternKingdom": [
+        "PLANT",
+        "PLANT",
+        "INSECT"
+      ]
+    }
+  },
+  {
+    "type" : "DispositionObjective",
+    "data" : {
+      "id" : "093",
+      "score": 3,
+      "patternPosition": [
+        {
+          "x": 0,
+          "y": 2
+        },
+        {
+          "x": 1,
+          "y": 3
+        }
+      ],
+      "patternKingdom": [
+        "ANIMAL",
+        "ANIMAL",
+        "FUNGI"
+      ]
+    }
+  },
+  {
+    "type" : "DispositionObjective",
+    "data" : {
+      "id" : "094",
+      "score": 3,
+      "patternPosition": [
+        {
+          "x": 0,
+          "y": 2
+        },
+        {
+          "x": -1,
+          "y": 3
+        }
+      ],
+      "patternKingdom": [
+        "INSECT",
+        "INSECT",
+        "ANIMAL"
+      ]
+    }
+  },
+  {
+    "type" : "SymbolObjective",
+    "data" : {
+      "id" : "095",
+      "score": 2,
+      "symbols": {
+        "FUNGI": 3
+      }
+    }
+  },
+  {
+    "type" : "SymbolObjective",
+    "data" : {
+      "id" : "096",
+      "score": 2,
+      "symbols": {
+        "PLANT": 3
+      }
+    }
+  },
+  {
+    "type" : "SymbolObjective",
+    "data" : {
+      "id" : "097",
+      "score": 2,
+      "symbols": {
+        "ANIMAL": 3
+      }
+    }
+  },
+  {
+    "type" : "SymbolObjective",
+    "data" : {
+      "id" : "098",
+      "score": 2,
+      "symbols": {
+        "INSECT": 3
+      }
+    }
+  },
+  {
+    "type" : "SymbolObjective",
+    "data" : {
+      "id" : "099",
+      "score": 3,
+      "symbols": {
+        "QUILL": 1,
+        "INKWELL": 1,
+        "MANUSCRIPT": 1
+      }
+    }
+  },
+  {
+    "type" : "SymbolObjective",
+    "data" : {
+      "id" : "100",
+      "score": 2,
+      "symbols": {
+        "MANUSCRIPT": 2
+      }
+    }
+  },
+  {
+    "type" : "SymbolObjective",
+    "data" : {
+      "id" : "101",
+      "score": 2,
+      "symbols": {
+        "INKWELL": 2
+      }
+    }
+  },
+  {
+    "type" : "SymbolObjective",
+    "data" : {
+      "id" : "102",
+      "score": 2,
+      "symbols": {
+        "QUILL": 2
+      }
+    }
+  }
+]

@@ -1,0 +1,942 @@
+[
+  {
+    "kingdom" : "FUNGI",
+    "id" : "001",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : false,
+        "symbol" : null
+      }
+    }
+  },
+  {
+    "kingdom" : "FUNGI",
+    "id" : "002",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      }
+    }
+  },
+  {
+    "kingdom" : "FUNGI",
+    "id" : "003",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      }
+    }
+  },
+  {
+    "kingdom" : "FUNGI",
+    "id" : "004",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      }
+    }
+  },
+  {
+    "kingdom" : "FUNGI",
+    "id" : "005",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "QUILL"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      }
+    }
+  },
+  {
+    "kingdom" : "FUNGI",
+    "id" : "006",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "INKWELL"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      }
+    }
+  },
+  {
+    "kingdom" : "FUNGI",
+    "id" : "007",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "MANUSCRIPT"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      }
+    }
+  },
+  {
+    "kingdom" : "FUNGI",
+    "id" : "008",
+    "score" : 1,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : false,
+        "symbol" : null
+      }
+    }
+  },
+  {
+    "kingdom" : "FUNGI",
+    "id" : "009",
+    "score" : 1,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      }
+    }
+  },
+  {
+    "kingdom" : "FUNGI",
+    "id" : "010",
+    "score" : 1,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      }
+    }
+  },
+
+  {
+    "kingdom" : "PLANT",
+    "id" : "011",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : false,
+        "symbol" : null
+      }
+    }
+  },
+  {
+    "kingdom" : "PLANT",
+    "id" : "012",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      }
+    }
+  },
+
+  {
+    "kingdom" : "PLANT",
+    "id" : "013",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      }
+    }
+  },
+
+  {
+    "kingdom" : "PLANT",
+    "id" : "014",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      }
+    }
+  },
+
+  {
+    "kingdom" : "PLANT",
+    "id" : "015",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "QUILL"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      }
+    }
+  },
+
+  {
+    "kingdom" : "PLANT",
+    "id" : "016",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "INKWELL"
+      }
+    }
+  },
+
+  {
+    "kingdom" : "PLANT",
+    "id" : "017",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "MANUSCRIPT"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      }
+    }
+  },
+
+  {
+    "kingdom" : "PLANT",
+    "id" : "018",
+    "score" : 1,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : false,
+        "symbol" : null
+      }
+    }
+  },
+
+  {
+    "kingdom" : "PLANT",
+    "id" : "019",
+    "score" : 1,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      }
+    }
+  },
+
+  {
+    "kingdom" : "PLANT",
+    "id" : "020",
+    "score" : 1,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      }
+    }
+  },
+
+  {
+    "kingdom" : "ANIMAL",
+    "id" : "021",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : false,
+        "symbol" : null
+      }
+    }
+  },
+
+  {
+    "kingdom" : "ANIMAL",
+    "id" : "022",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      }
+    }
+  },
+
+  {
+    "kingdom" : "ANIMAL",
+    "id" : "023",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      }
+    }
+  },
+
+  {
+    "kingdom" : "ANIMAL",
+    "id" : "024",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      }
+    }
+  },
+
+  {
+    "kingdom" : "ANIMAL",
+    "id" : "025",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "INKWELL"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      }
+    }
+  },
+
+  {
+    "kingdom" : "ANIMAL",
+    "id" : "026",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "MANUSCRIPT"
+      }
+    }
+  },
+
+  {
+    "kingdom" : "ANIMAL",
+    "id" : "027",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "QUILL"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      }
+    }
+  },
+
+  {
+    "kingdom" : "ANIMAL",
+    "id" : "028",
+    "score" : 1,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      }
+    }
+  },
+
+  {
+    "kingdom" : "ANIMAL",
+    "id" : "029",
+    "score" : 1,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      }
+    }
+  },
+
+  {
+    "kingdom" : "ANIMAL",
+    "id" : "030",
+    "score" : 1,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : false,
+        "symbol" : null
+      }
+    }
+  },
+
+  {
+    "kingdom" : "INSECT",
+    "id" : "031",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : false,
+        "symbol" : null
+      }
+    }
+  },
+  {
+    "kingdom" : "INSECT",
+    "id" : "032",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      }
+    }
+  },
+  {
+    "kingdom" : "INSECT",
+    "id" : "033",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      }
+    }
+  },
+  {
+    "kingdom" : "INSECT",
+    "id" : "034",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      }
+    }
+  },
+  {
+    "kingdom" : "INSECT",
+    "id" : "035",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "QUILL"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      }
+    }
+  },
+  {
+    "kingdom" : "INSECT",
+    "id" : "036",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "MANUSCRIPT"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      }
+    }
+  },
+  {
+    "kingdom" : "INSECT",
+    "id" : "037",
+    "score" : 0,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "INKWELL"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : false,
+        "symbol" : null
+      }
+    }
+  },
+  {
+    "kingdom" : "INSECT",
+    "id" : "038",
+    "score" : 1,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      }
+    }
+  },
+  {
+    "kingdom" : "INSECT",
+    "id" : "039",
+    "score" : 1,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      }
+    }
+  },
+  {
+    "kingdom" : "INSECT",
+    "id" : "040",
+    "score" : 1,
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      }
+    }
+  }
+]

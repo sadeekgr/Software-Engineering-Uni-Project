@@ -1,0 +1,1219 @@
+[
+  {
+    "type" : "GoldCardObject",
+    "data" : {
+      "kingdom": "FUNGI",
+      "id": "041",
+      "symbol": "QUILL",
+      "scorePerSymbol": 1,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "QUILL"
+        }
+      },
+      "requirements": {
+        "FUNGI": 2,
+        "ANIMAL": 1
+      }
+    }
+  },
+  {
+    "type" : "GoldCardObject",
+    "data" : {
+      "kingdom": "FUNGI",
+      "id": "042",
+      "symbol": "INKWELL",
+      "scorePerSymbol": 1,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "INKWELL"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      },
+      "requirements": {
+        "FUNGI": 2,
+        "PLANT": 1
+      }
+    }
+  },
+  {
+    "type" : "GoldCardObject",
+    "data" : {
+      "kingdom": "FUNGI",
+      "id": "043",
+      "symbol": "MANUSCRIPT",
+      "scorePerSymbol": 1,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "MANUSCRIPT"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        }
+      },
+      "requirements": {
+        "FUNGI": 2,
+        "INSECT": 1
+      }
+    }
+  },
+  {
+    "type" : "GoldCardCorner",
+    "data" : {
+      "kingdom": "FUNGI",
+      "id": "044",
+      "scorePerCorner": 2,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      },
+      "requirements": {
+        "FUNGI": 3,
+        "ANIMAL": 1
+      }
+    }
+  },
+  {
+    "type" : "GoldCardCorner",
+    "data" : {
+      "kingdom": "FUNGI",
+      "id": "045",
+      "scorePerCorner": 2,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        }
+      },
+      "requirements": {
+        "FUNGI": 3,
+        "PLANT": 1
+      }
+    }
+  },
+  {
+    "type" : "GoldCardCorner",
+    "data" : {
+      "kingdom": "FUNGI",
+      "id": "046",
+      "scorePerCorner": 2,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      },
+      "requirements": {
+        "FUNGI": 3,
+        "INSECT": 1
+      }
+    }
+  },
+  {
+    "type" : "GoldCardInt",
+    "data" : {
+      "kingdom": "FUNGI",
+      "id": "047",
+      "score": 3,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "INKWELL"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        }
+      },
+      "requirements": {
+        "FUNGI": 3
+      }
+    }
+  },
+  {
+    "type" : "GoldCardInt",
+    "data" : {
+      "kingdom": "FUNGI",
+      "id": "048",
+      "score": 3,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "QUILL"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        }
+      },
+      "requirements": {
+        "FUNGI": 3
+      }
+    }
+  },
+  {
+    "type" : "GoldCardInt",
+    "data" : {
+      "kingdom": "FUNGI",
+      "id": "049",
+      "score": 3,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "MANUSCRIPT"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      },
+      "requirements": {
+        "FUNGI": 3
+      }
+    }
+  },
+  {
+    "type" : "GoldCardInt",
+    "data" : {
+      "kingdom": "FUNGI",
+      "id": "050",
+      "score": 5,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        }
+      },
+      "requirements": {
+        "FUNGI": 5
+      }
+    }
+  },
+
+  {
+    "type" : "GoldCardObject",
+    "data" : {
+      "kingdom": "PLANT",
+      "id": "051",
+      "symbol": "QUILL",
+      "scorePerSymbol": 1,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "QUILL"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        }
+      },
+      "requirements": {
+        "PLANT": 2,
+        "INSECT": 1
+      }
+    }
+  },
+
+  {
+    "type" : "GoldCardObject",
+    "data" : {
+      "kingdom": "PLANT",
+      "id": "052",
+      "symbol": "MANUSCRIPT",
+      "scorePerSymbol": 1,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "MANUSCRIPT"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      },
+      "requirements": {
+        "PLANT": 2,
+        "FUNGI": 1
+      }
+    }
+  },
+
+  {
+    "type" : "GoldCardObject",
+    "data" : {
+      "kingdom": "PLANT",
+      "id": "053",
+      "symbol": "INKWELL",
+      "scorePerSymbol": 1,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "INKWELL"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      },
+      "requirements": {
+        "PLANT": 2,
+        "ANIMAL": 1
+      }
+    }
+  },
+
+  {
+    "type" : "GoldCardCorner",
+    "data" : {
+      "kingdom": "PLANT",
+      "id": "054",
+      "scorePerCorner": 2,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      },
+      "requirements": {
+        "PLANT": 3,
+        "INSECT": 1
+      }
+    }
+  },
+
+  {
+    "type" : "GoldCardCorner",
+    "data" : {
+      "kingdom": "PLANT",
+      "id": "055",
+      "scorePerCorner": 2,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        }
+      },
+      "requirements": {
+        "PLANT": 3,
+        "ANIMAL": 1
+      }
+    }
+  },
+
+  {
+    "type" : "GoldCardCorner",
+    "data" : {
+      "kingdom": "PLANT",
+      "id": "056",
+      "scorePerCorner": 2,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      },
+      "requirements": {
+        "PLANT": 3,
+        "FUNGI": 1
+      }
+    }
+  },
+
+  {
+    "type" : "GoldCardInt",
+    "data" : {
+      "kingdom": "PLANT",
+      "id": "057",
+      "score": 3,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "QUILL"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        }
+      },
+      "requirements": {
+        "PLANT": 3
+      }
+    }
+  },
+
+  {
+    "type" : "GoldCardInt",
+    "data" : {
+      "kingdom": "PLANT",
+      "id": "058",
+      "score": 3,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "MANUSCRIPT"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        }
+      },
+      "requirements": {
+        "PLANT": 3
+      }
+    }
+  },
+
+  {
+    "type" : "GoldCardInt",
+    "data" : {
+      "kingdom": "PLANT",
+      "id": "059",
+      "score": 3,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "INKWELL"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      },
+      "requirements": {
+        "PLANT": 3
+      }
+    }
+  },
+
+  {
+    "type" : "GoldCardInt",
+    "data" : {
+      "kingdom": "PLANT",
+      "id": "060",
+      "score": 5,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        }
+      },
+      "requirements": {
+        "PLANT": 5
+      }
+    }
+  },
+
+  {
+    "type" : "GoldCardObject",
+    "data" : {
+      "kingdom": "ANIMAL",
+      "id": "061",
+      "symbol": "INKWELL",
+      "scorePerSymbol": 1,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "INKWELL"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        }
+      },
+      "requirements": {
+        "ANIMAL": 2,
+        "INSECT": 1
+      }
+    }
+  },
+
+
+  {
+    "type" : "GoldCardObject",
+    "data" : {
+      "kingdom": "ANIMAL",
+      "id": "062",
+      "symbol": "MANUSCRIPT",
+      "scorePerSymbol": 1,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "MANUSCRIPT"
+        }
+      },
+      "requirements": {
+        "ANIMAL": 2,
+        "PLANT": 1
+      }
+    }
+  },
+
+  {
+    "type" : "GoldCardObject",
+    "data" : {
+      "kingdom": "ANIMAL",
+      "id": "063",
+      "symbol": "QUILL",
+      "scorePerSymbol": 1,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "QUILL"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      },
+      "requirements": {
+        "ANIMAL": 2,
+        "FUNGI": 1
+      }
+    }
+  },
+
+  {
+    "type" : "GoldCardCorner",
+    "data" : {
+      "kingdom": "ANIMAL",
+      "id": "064",
+      "scorePerCorner": 2,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      },
+      "requirements": {
+        "ANIMAL": 3,
+        "INSECT": 1
+      }
+    }
+  },
+
+  {
+    "type" : "GoldCardCorner",
+    "data" : {
+      "kingdom": "ANIMAL",
+      "id": "065",
+      "scorePerCorner": 2,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      },
+      "requirements": {
+        "ANIMAL": 3,
+        "FUNGI": 1
+      }
+    }
+  },
+
+  {
+    "type" : "GoldCardCorner",
+    "data" : {
+      "kingdom": "ANIMAL",
+      "id": "066",
+      "scorePerCorner": 2,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      },
+      "requirements": {
+        "ANIMAL": 3,
+        "PLANT": 1
+      }
+    }
+  },
+
+  {
+    "type" : "GoldCardInt",
+    "data" : {
+      "kingdom": "ANIMAL",
+      "id": "067",
+      "score": 3,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "MANUSCRIPT"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        }
+      },
+      "requirements": {
+        "ANIMAL": 3
+      }
+    }
+  },
+
+  {
+    "type" : "GoldCardInt",
+    "data" : {
+      "kingdom": "ANIMAL",
+      "id": "068",
+      "score": 3,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "INKWELL"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        }
+      },
+      "requirements": {
+        "ANIMAL": 3
+      }
+    }
+  },
+
+  {
+    "type" : "GoldCardInt",
+    "data" : {
+      "kingdom": "ANIMAL",
+      "id": "069",
+      "score": 3,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "QUILL"
+        }
+      },
+      "requirements": {
+        "ANIMAL": 3
+      }
+    }
+  },
+  {
+    "type" : "GoldCardInt",
+    "data" : {
+      "kingdom": "ANIMAL",
+      "id": "070",
+      "score": 5,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      },
+      "requirements": {
+        "ANIMAL": 5
+      }
+    }
+  },
+
+  {
+    "type" : "GoldCardObject",
+    "data" : {
+      "kingdom": "INSECT",
+      "id": "071",
+      "symbol": "QUILL",
+      "scorePerSymbol": 1,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "QUILL"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      },
+      "requirements": {
+        "INSECT": 2,
+        "PLANT": 1
+      }
+    }
+  },
+  {
+    "type" : "GoldCardObject",
+    "data" : {
+      "kingdom": "INSECT",
+      "id": "072",
+      "symbol": "MANUSCRIPT",
+      "scorePerSymbol": 1,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "MANUSCRIPT"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      },
+      "requirements": {
+        "INSECT": 2,
+        "ANIMAL": 1
+      }
+    }
+  },
+  {
+    "type" : "GoldCardObject",
+    "data" : {
+      "kingdom": "INSECT",
+      "id": "073",
+      "symbol": "MANUSCRIPT",
+      "scorePerSymbol": 1,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "INKWELL"
+        }
+      },
+      "requirements": {
+        "INSECT": 2,
+        "FUNGI": 1
+      }
+    }
+  },
+  {
+    "type" : "GoldCardCorner",
+    "data" : {
+      "kingdom": "INSECT",
+      "id": "074",
+      "scorePerCorner": 2,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      },
+      "requirements": {
+        "INSECT": 3,
+        "ANIMAL": 1
+      }
+    }
+  },
+  {
+    "type" : "GoldCardCorner",
+    "data" : {
+      "kingdom": "INSECT",
+      "id": "075",
+      "scorePerCorner": 2,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        }
+      },
+      "requirements": {
+        "INSECT": 3,
+        "PLANT": 1
+      }
+    }
+  },
+  {
+    "type" : "GoldCardCorner",
+    "data" : {
+      "kingdom": "INSECT",
+      "id": "076",
+      "scorePerCorner": 2,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      },
+      "requirements": {
+        "INSECT": 3,
+        "FUNGI": 1
+      }
+    }
+  },
+  {
+    "type" : "GoldCardInt",
+    "data" : {
+      "kingdom": "INSECT",
+      "id": "077",
+      "score": 3,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "INKWELL"
+        },
+        "TOP_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        }
+      },
+      "requirements": {
+        "INSECT": 3
+      }
+    }
+  },
+  {
+    "type" : "GoldCardInt",
+    "data" : {
+      "kingdom": "INSECT",
+      "id": "078",
+      "score": 3,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "MANUSCRIPT"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        }
+      },
+      "requirements": {
+        "INSECT": 3
+      }
+    }
+  },
+  {
+    "type" : "GoldCardInt",
+    "data" : {
+      "kingdom": "INSECT",
+      "id": "079",
+      "score": 3,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "TOP_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": true,
+          "symbol": "QUILL"
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        }
+      },
+      "requirements": {
+        "INSECT": 3
+      }
+    }
+  },
+  {
+    "type" : "GoldCardInt",
+    "data" : {
+      "kingdom": "INSECT",
+      "id": "080",
+      "score": 5,
+      "frontCorners": {
+        "TOP_LEFT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "TOP_RIGHT": {
+          "isPresent": true,
+          "symbol": "EMPTY"
+        },
+        "BOTTOM_LEFT": {
+          "isPresent": false,
+          "symbol": null
+        },
+        "BOTTOM_RIGHT": {
+          "isPresent": false,
+          "symbol": null
+        }
+      },
+      "requirements": {
+        "INSECT": 5
+      }
+    }
+  }
+]

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: burlywood;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.view.gui.controllers.Table">
+   <children>
+      <GridPane layoutX="251.0" layoutY="540.0" prefHeight="60.0" prefWidth="326.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fx:id="imgHand0" fitHeight="50.0" fitWidth="80.0" onMouseClicked="#handCard0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <ImageView fx:id="imgHand1" fitHeight="50.0" fitWidth="80.0" onMouseClicked="#handCard1" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <ImageView fx:id="imgHand2" fitHeight="50.0" fitWidth="80.0" onMouseClicked="#handCard2" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <ImageView fx:id="obj" fitHeight="50.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+         </children>
+      </GridPane>
+      <ImageView fitHeight="308.0" fitWidth="189.0" layoutX="246.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/scoreboard.png" />
+         </image>
+      </ImageView>
+      <GridPane layoutY="188.0" prefHeight="227.0" prefWidth="84.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <ImageView fx:id="imgHand2Player1" fitHeight="50.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <ImageView fx:id="imgHand0Player1" fitHeight="50.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <ImageView fx:id="imgHand1Player1" fitHeight="50.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <ImageView fx:id="objPlayer1" fitHeight="50.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+         </children>
+      </GridPane>
+      <GridPane layoutX="716.0" layoutY="187.0" prefHeight="227.0" prefWidth="84.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <ImageView fx:id="imgHand1Player3" fitHeight="50.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <ImageView fx:id="objPlayer3" fitHeight="50.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <ImageView fx:id="imgHand0Player3" fitHeight="50.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <ImageView fx:id="imgHand2Player3" fitHeight="50.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+         </children>
+      </GridPane>
+      <GridPane layoutX="251.0" prefHeight="60.0" prefWidth="326.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <ImageView fx:id="objPlayer2" fitHeight="50.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <ImageView fx:id="imgHand0Player2" fitHeight="50.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <ImageView fx:id="imgHand1Player2" fitHeight="50.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <ImageView fx:id="imgHand2Player2" fitHeight="50.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" />
+         </children>
+      </GridPane>
+      <GridPane layoutX="414.0" layoutY="161.0" prefHeight="280.0" prefWidth="168.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <ImageView fx:id="imgGoldDeck" fitHeight="50.0" fitWidth="80.0" onMouseClicked="#drawGold" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <ImageView fx:id="imgObjective0" fitHeight="50.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <ImageView fx:id="imgMarket1" fitHeight="50.0" fitWidth="80.0" onMouseClicked="#drawMarket" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <ImageView fx:id="imgMarket3" fitHeight="50.0" fitWidth="80.0" onMouseClicked="#drawMarket" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <ImageView fx:id="imgResourceDeck" fitHeight="50.0" fitWidth="80.0" onMouseClicked="#drawResource" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <ImageView fx:id="imgObjective1" fitHeight="50.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <ImageView fx:id="imgMarket0" fitHeight="50.0" fitWidth="80.0" onMouseClicked="#drawMarket" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <ImageView fx:id="imgMarket2" fitHeight="50.0" fitWidth="80.0" onMouseClicked="#drawMarket" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+         </children>
+      </GridPane>
+      <Circle fx:id="colorPlayer1" fill="RED" layoutX="42.0" layoutY="441.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="color" fill="GREEN" layoutX="611.0" layoutY="570.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="colorPlayer3" fill="BLUE" layoutX="758.0" layoutY="161.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="colorPlayer2" fill="YELLOW" layoutX="217.0" layoutY="30.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="bluePawn" fill="BLUE" layoutX="353.0" layoutY="476.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="yellowPawn" fill="YELLOW" layoutX="323.0" layoutY="476.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="redPawn" fill="RED" layoutX="259.0" layoutY="476.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="greenPawn" fill="GREEN" layoutX="292.0" layoutY="476.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="118.0" layoutY="287.0" mnemonicParsing="false" onAction="#showFieldPlayer1" text="Show Field" />
+      <Button fx:id="button3" layoutX="382.0" layoutY="85.0" mnemonicParsing="false" onAction="#showFieldPlayer2" text="Show Field" />
+      <Button fx:id="button4" layoutX="636.0" layoutY="287.0" mnemonicParsing="false" onAction="#showFieldPlayer3" text="Show Field" />
+      <Button layoutX="382.0" layoutY="499.0" mnemonicParsing="false" onAction="#showMyField" text="Show Field" />
+      <Button layoutX="694.0" layoutY="18.0" mnemonicParsing="false" onAction="#handleOpenChat" prefHeight="26.0" prefWidth="90.0" text="OPEN CHATS" />
+   </children>
+</AnchorPane>

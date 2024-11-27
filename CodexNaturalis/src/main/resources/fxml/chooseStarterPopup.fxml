@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity"
+      minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="265.0" prefWidth="600.0"
+      xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="it.polimi.ingsw.view.gui.controllers.ChooseStarterPopup">
+   <children>
+      <HBox alignment="TOP_CENTER" prefHeight="17.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Choose Starter Card side">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="70.0">
+         <children>
+            <ImageView fx:id="front" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#chooseFront" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/cards/front/085.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="back" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#chooseBack" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/cards/back/085.png" />
+               </image>
+            </ImageView>
+         </children>
+         <padding>
+            <Insets bottom="40.0" left="70.0" right="70.0" top="40.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>

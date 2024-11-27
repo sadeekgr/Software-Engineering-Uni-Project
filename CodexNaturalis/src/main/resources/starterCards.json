@@ -1,0 +1,260 @@
+[
+  {
+    "id" : "086",
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : false,
+        "symbol" : null
+      }
+    },
+    "backCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      }
+    },
+    "centerSymbols" : [
+      "PLANT",
+      "ANIMAL",
+      "FUNGI"
+    ]
+  },
+  {
+    "id" : "085",
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : false,
+        "symbol" : null
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : false,
+        "symbol" : null
+      }
+    },
+    "backCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      }
+    },
+    "centerSymbols" : [
+      "ANIMAL",
+      "INSECT",
+      "PLANT"
+    ]
+  },
+  {
+    "id" : "084",
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      }
+    },
+    "backCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      }
+    },
+    "centerSymbols" : [
+      "ANIMAL",
+      "INSECT"
+    ]
+  },
+  {
+    "id" : "083",
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      }
+    },
+    "backCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      }
+    },
+    "centerSymbols" : [
+      "PLANT",
+      "FUNGI"
+    ]
+  },
+  {
+    "id" : "082",
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      }
+    },
+    "backCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      }
+    },
+    "centerSymbols" : [
+      "FUNGI"
+    ]
+  },
+  {
+    "id" : "081",
+    "frontCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "EMPTY"
+      }
+    },
+    "backCorners" : {
+      "TOP_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "FUNGI"
+      },
+      "TOP_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "PLANT"
+      },
+      "BOTTOM_LEFT" : {
+        "isPresent" : true,
+        "symbol" : "INSECT"
+      },
+      "BOTTOM_RIGHT" : {
+        "isPresent" : true,
+        "symbol" : "ANIMAL"
+      }
+    },
+    "centerSymbols" : [
+      "INSECT"
+    ]
+  }
+]

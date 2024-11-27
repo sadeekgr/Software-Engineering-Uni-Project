@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="179.0" prefWidth="286.0"
+            xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="it.polimi.ingsw.view.gui.controllers.CreateLobby">
+    <Label layoutX="65.0" layoutY="35.0" text="Choose the number of players" />
+    <ComboBox fx:id="numberOfPlayersComboBox" layoutX="70.0" layoutY="77.0" prefWidth="150.0">
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+                <String fx:value="2" />
+                <String fx:value="3" />
+                <String fx:value="4" />
+            </FXCollections>
+        </items>
+    </ComboBox>
+   <Button fx:id="createButton" onAction="#createLobby" layoutX="117.0" layoutY="130.0" mnemonicParsing="false" text="create!" />
+</AnchorPane>
