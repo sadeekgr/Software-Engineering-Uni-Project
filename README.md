@@ -48,12 +48,8 @@ The final version includes:
 |----------------------|--------|
 | Chat                 | ✅    |
 | Persistence          | ✅    |
-| Resilience           | ⛔    |
 | Multiple games       | ✅    |
 
-**Legend:**  
-⛔ Not Implemented  
-✅ Implemented  
 
 ### Test cases
 The model package's class coverage is 100%.
