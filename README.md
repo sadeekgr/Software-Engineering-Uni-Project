@@ -26,10 +26,10 @@ The full game can be found [here](https://www.craniocreations.it/prodotto/codex-
 
 The final version includes:
 - Final UML diagrams
-- Working game implementation, which has to be rules compliant
+- Working game implementation
 - Network protocol documentation of the application
 - Source code of the implementation
-- Source code of unit tests
+- Source code of the unit tests
 
 ## Implemented Functionalities
 
