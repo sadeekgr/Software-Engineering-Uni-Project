@@ -42,7 +42,7 @@ The final version includes:
 | CLI            | ✅     |
 | GUI            | ✅     |
 
-## Advanced Functionality
+## Advanced Functionalities
 
 | Functionality        | Status |
 |----------------------|--------|
