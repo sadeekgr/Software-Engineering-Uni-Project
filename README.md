@@ -6,10 +6,6 @@
 
 **Final project of the "Software Engineering" course of "Computer Science and Engineering" - Politecnico di Milano (23/24).**
 
-**Professor:** Pierluigi San Pietro  
-**Lab Professors:** Antonio De Santis, Marco Venere  
-**Tutors:** Riccardo Medici, Davide Nunin, Francesca Panaccione, Jacopo Piazzalunga
-
 ## The Team
 - Filippo Mancini
 - Carlo Manzoni
